@@ -1,9 +1,9 @@
 import './global.css'
 
-import { ThemeProvider } from 'next-themes'
 import { RouterProvider } from 'react-router-dom'
 import { Toaster } from 'sonner'
 
+import { ThemeProvider } from './components/theme/theme-provider'
 import { router } from './routes'
 
 export function App() {
